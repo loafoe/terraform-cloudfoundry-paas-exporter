@@ -1,4 +1,6 @@
-l;oc
+locals {
+  postfix = var.name_postfix != "" ? var.name_postfix : random_pet.deploy.id
+}
 
 resource "random_pet" "deploy" {
 }

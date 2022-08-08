@@ -53,7 +53,7 @@ variable "cf_paas_exporter_image" {
 }
 
 variable "region" {
-  type = string
+  type    = string
   default = "eu-west"
 }
 
